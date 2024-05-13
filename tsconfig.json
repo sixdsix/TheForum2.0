@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Specify ECMAScript target version
+    "noImplicitAny": false,
+    "strict": false,
+    "strictNullChecks": false,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ], // List of library files to be included in the compilation
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file
+    "noEmit": true, // Do not emit outputs (Next.js does the emitting)
+    "esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules
+    "module": "esnext", // Specify module code generation
+    "moduleResolution": "node", // Determine how modules get resolved
+    "resolveJsonModule": true, // Include modules imported with '.json' extension
+    "isolatedModules": true, // Ensure that each file can be safely transpiled without relying on other imports
+    "jsx": "preserve", // Preserve JSX to be transformed by Babel in Next.js
+    "baseUrl": ".", // Base directory to resolve non-absolute module names
+    "paths": {
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/pages/*": [
+        "pages/*"
+      ],
+      "@/styles/*": [
+        "styles/*"
+      ],
+      "@/utils/*": [
+        "utils/*"
+      ],
+      "@/public/*": [
+        "public/*"
+      ]
+    },
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts", // Include Next.js types
+    "**/*.ts", // Include all TypeScript files
+    "**/*.tsx" // Include all TypeScript files that contain JSX
+    ,
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ] // Exclude the node_modules directory
+}
