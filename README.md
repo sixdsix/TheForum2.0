@@ -1,3 +1,8 @@
+#Link
+https://main--delicate-bienenstitch-38cb95.netlify.app/
+
+#Please Note: You must first create an account in order to post on the forum
+
 # Creator Information
 - Name: Brandon Hughes & Nathan Miller
 - Student ID: 2405732 & 2366380
